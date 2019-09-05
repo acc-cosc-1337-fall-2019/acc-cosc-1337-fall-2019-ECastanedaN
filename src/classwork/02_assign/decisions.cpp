@@ -4,7 +4,7 @@
 double gross_pay(double hours, double hourly_rate)
 {
 	double over_time_hours = 0;
-	double over_time_rate = 1.5;
+	double over_time_rate = 1.5 * hourly_rate;
 
 	if (hours <= 40)
 		return hours * hourly_rate;
