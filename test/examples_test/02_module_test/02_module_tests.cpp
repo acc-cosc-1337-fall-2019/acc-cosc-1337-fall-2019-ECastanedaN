@@ -8,6 +8,6 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("Test is_even function")
 {
-	REQUIRE(is_even(2) == true)
-	REQUIRE(is_even(3) == false)
+	REQUIRE(is_even(2) == true);
+	REQUIRE(is_even(3) == false);
 }
