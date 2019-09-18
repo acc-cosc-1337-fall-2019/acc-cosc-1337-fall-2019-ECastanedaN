@@ -8,9 +8,9 @@ int sum_of_squares(int num)
 	auto i = 0;
 	auto sum = 0;
 
-	while (i <= num)
+	while (i <= num) 
 	{
-		sum = sum + (i * i)
+		sum = sum + i * i;
 		++i;//i = i + 1;
 	}
 
@@ -36,11 +36,10 @@ l
 void display(string str)
 {
 	auto i = 0;
-
-	while (i < str.length())
+	
+	while(i < str.length())
 	{
 		std::cout << str[i] << "\n";
 		++i;
 	}
 }
-

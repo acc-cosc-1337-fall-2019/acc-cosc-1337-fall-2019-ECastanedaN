@@ -11,7 +11,7 @@ int main()
 	nums.push_back(25);
 	nums.erase(nums.begin() + 1);
 
-	loop_vector_w_index(nums);
+	//loop_vector_w_index(nums);
 
 	return 0;
 }

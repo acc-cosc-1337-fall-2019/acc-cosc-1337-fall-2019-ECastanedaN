@@ -12,6 +12,7 @@ void prompt_user()
 
 	do
 	{
+		//some more code for your program
 		cout << "Loop again y or n? ";
 		cin >> user_choice;
 	} 
@@ -33,7 +34,7 @@ string menu(int menu_option)
 	default:
 		return "Invalid";
 	}
-	return string();
+
 }
 
 
@@ -44,27 +45,28 @@ Use the existing menu_option function from /example/02_module/03_switch
 folder.
 
 */
-
 void run_menu()
 {
 	auto user_choice = 'y';
 	auto choice = 0;
 
-	do
+	do 
 	{
 		cout << "Enter menu option: ";
 		cin >> choice;
 
-		while (choice < 1 || choice > 4);
+		while (choice < 1 || choice > 4) 
 		{
 			cout << "Enter menu option: ";
 			cin >> choice;
 		}
-		
-		cout << menu(choice);
+
+		cout << menu(choice) <<"\n";
 
 		cout << "Continue y or n";
 		cin >> user_choice;
-
-	} while (user_choice == 'y' || user_choice == 'y');
+	
+	} while (user_choice == 'y' || user_choice == 'Y');
 }
+
+

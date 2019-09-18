@@ -14,13 +14,10 @@ RESULT:
 5
 
 */
-
 void display_numbers(int num)
 {
-	for (int i = 1; i < num; ++i)
+	for (int i = 1; i <= num; ++i) 
 	{
 		std::cout << i << "\n";
-
 	}
-
 }
