@@ -14,15 +14,15 @@ DON'T FORGET TO WRITE TEST CASE.  See file loop_test.cpp
 #include <iostream>
 
 
-
 int factorial(int num)
 {
-	for (int i = 1; i <= num;)
+	int i;
+	int factorial = 1;
+
+	for (i = 1; i <= num; i++)
 	{
-		auto total = 1;
-		total = num * total;
-		++i;
+		 factorial = factorial * i;
 	}
 	
-	return 0;
+	return factorial;
 }
