@@ -8,7 +8,7 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("Test Rectangle calculate area")
 {
-	Rectanglee r(5, 4);
+	acc::Rectangle r(5, 4);
 	REQUIRE(r.get_area() == 20);
 
 }

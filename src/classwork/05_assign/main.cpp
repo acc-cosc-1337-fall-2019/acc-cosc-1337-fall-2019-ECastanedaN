@@ -5,6 +5,8 @@
 
 using std::cout;
 using std::vector;
+using acc::Rectangle;
+
 
 /*
 Create a vector of rectangles
@@ -18,10 +20,10 @@ Iterate the vector and display the Area for each Rectangle on one line and the t
 */
 int main()
 {
-	vector<Rectanglee> rectangles;
-	rectangles.push_back(Rectanglee(4, 5));
-	rectangles.push_back(Rectanglee(10, 10));
-	rectangles.push_back(Rectanglee(100, 10));
+	vector<Rectangle> rectangles;
+	rectangles.push_back(Rectangle(4, 5));
+	rectangles.push_back(Rectangle(10, 10));
+	rectangles.push_back(Rectangle(100, 10));
 
 	for (auto rec : rectangles)
 	{

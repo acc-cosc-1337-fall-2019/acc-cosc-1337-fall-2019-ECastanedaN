@@ -1,4 +1,6 @@
 //bank_account.h
+#ifndef BANK_ACCOUNT_H
+#define BANK_ACCOUNT_H //header guards: prevenets class redefinition
 class BankAccount
 {
 
@@ -13,3 +15,5 @@ private:
 	int balance;
 
 };
+
+#endif
