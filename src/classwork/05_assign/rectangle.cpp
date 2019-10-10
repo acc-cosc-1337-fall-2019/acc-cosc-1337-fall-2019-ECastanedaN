@@ -21,3 +21,11 @@ void acc::Rectangle::calculate_area()
 	}
 }
 
+std::ostream & acc::operator<<(std::ostream & out, const Rectangle & r)
+{
+	out << "Area: " << r.area << "\n";
+
+	return out;
+}
+
+
